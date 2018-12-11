@@ -1,0 +1,1 @@
+A set of [Vagrantfiles](https://www.vagrantup.com/docs/vagrantfile) to be used in conjunction with VMware (Fusion or Workstation) and the [Vagrant VMware provider](https://www.vagrantup.com/vmware/index.html).
