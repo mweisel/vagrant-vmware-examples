@@ -3,6 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
+  config.ssh.shell = "run bash"
   config.vm.box = "cisco-nexus-9kv-703-i7-5a"
   # Set timeout to 6 mins
   config.vm.boot_timeout = 360
