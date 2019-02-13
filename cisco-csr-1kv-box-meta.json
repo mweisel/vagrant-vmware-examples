@@ -1,0 +1,16 @@
+{
+  "name": "cisco-csr-1000v",
+  "description": "This box contains Cisco Cloud Services Router (CSR) 1000v.",
+  "versions": [
+    {
+      "version": "16.03.07",
+      "providers": [
+        {
+          "name": "vmware_desktop",
+          "url": "file://fq_path/cisco-csr-1000v.box"
+        }
+      ]
+    }
+  ]
+}
+
