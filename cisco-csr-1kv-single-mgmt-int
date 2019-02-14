@@ -4,6 +4,7 @@
 Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.vm.box = "cisco-csr-1000v"
+  config.vm.box_check_update = false
   config.vm.boot_timeout = 240
   # Disable default host <-> guest synced folder
   config.vm.synced_folder ".", "/vagrant", disabled: true
